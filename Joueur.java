@@ -51,6 +51,6 @@ public class Joueur
 		while(c < 1 || c >7)
 			c = sc2.nextInt();
 		if(!grille.insertToken(c-1, this.getJeton()))
-			System.out.println("La colonne est remplie !, tu perds ton tour !");
+			System.out.println("La colonne est remplie !, tu viens de perdre ton tour !");
 	}
 }
