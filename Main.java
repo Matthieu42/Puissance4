@@ -12,7 +12,7 @@ public class Main
 		Joueur[] tabJoueur = new Joueur[2];
 		String token = new String("-+");
 		int i = 0;
-		System.out.println("-------------- Bienvenue dans le jeu de puissance 4 ! --------------");
+		System.out.println("--------------- Bienvenue dans le jeu de puissance 4 ! ---------------");
 		
 		for(int j = 1; j <= 2; j++)
 		{
