@@ -6,6 +6,7 @@ public class Joueur
 	private int score;
 	private char jeton; // + ou -
 	
+	private static Scanner sc2 = new Scanner(System.in);
 	public Joueur(String pseudo, char jeton)
 	{
 		setPseudo(pseudo);
@@ -45,7 +46,6 @@ public class Joueur
 
 	public void jouer(Grille grille, Jeu jeu)
 	{
-		Scanner sc2 = new Scanner(System.in);
 		int c = 8;
 		System.out.println("C'est a " + this.getPseudo() + " de jouer ! Choissisez la colonne où vous voulez mettre votre jeton (1~7) ");
 		while(c < 1 || c >7)
